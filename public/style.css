@@ -13,8 +13,8 @@
 	font-size: inherit;
 }
 h1 {
-  font-family: 'Peralta', cursive;
-  color: #FC4A1A;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #4ABDAC;
 }
 
 h5 {
@@ -26,7 +26,7 @@ h5 {
 }
 
 #logo-container {
-  font-family: 'Fascinate Inline', cursive;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 body {
