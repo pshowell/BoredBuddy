@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>Your Game</title>
+    <link rel="shortcut icon" href="./images/bored_funcon.png" type="image/vnd.microsoft.icon">
+      <link href="./css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css">
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.js"></script>
+      <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="light-blue lighten-1" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">BoredBuddy</a>
+        <div>
+          <a href="index.html"><img src="./images/bored_funcon.png" alt="missing img" height="60px" width="60px" style="padding-top:5px; margin-left: -70px;"></a>
+        </div>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Navbar Link</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="#">Navbar Link</a></li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+    <div class="section no-pad-bot" id="index-banner">
+      <div class="container">
+        <br><br>
+        <h1 class="header center orange-text">Your Game Choice:</h1>
+        <div class="row">
+          <div class="col s5 m5">
+            <img class="responsive-img" id="gameImage" src="./images/monopoly.jpg" alt="missing img">
+          </div>
+          <div class="col s7 m7">
+            <div class="row">
+              <div class="col s5 m5">
+                <h5 class="header col s12 light">Game Title:</h5>
+                <h5 class="header col s12 light">Game Cat/Genre:</h5>
+                <h5 class="header col s12 light">Min Players:</h5>
+                <h5 class="header col s12 light">Max Players:</h5>
+                <h5 class="header col s12 light">Game Time Est:</h5>
+                <h5 class="header col s12 light">Description:</h5>
+              </div>
+              <div class="col s7 m7">
+                <h5 class="header col s12 light" id="gameTitle">UNKNOWN</h5>
+                <h5 class="header col s12 light" id="gameCat">UNKNOWN</h5>
+                <h5 class="header col s12 light" id="minPlayers">UNKNOWN</h5>
+                <h5 class="header col s12 light" id="maxPlayers">UNKNOWN</h5>
+                <h5 class="header col s12 light" id="gameTime">UNKNOWN</h5>
+                <h5 class="header col s12 light"></h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12 m12" style="margin-top:-35px">
+                <h5 class="header col s12 light" id="description">UNKNOWN</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br><br>
+      </div>
+    <hr>
+        <!-- Beginning of youtube search -->
+  </div>
+    <div class="container">
+      <div class="row">
+        <h5 class="header center col s5 light">Link to Game Website: <a href="http://www.boardgamegeek.com">http://www.boardgamegeek.com</a></h5><h5 class="header center col s2 light"></h5><h5 class="header center col s5 light">Link to Game Manual: <a href="http://www.boardgamegeek.com">http://www.boardgamegeek.com</a></h5>
+      </div>
+      <div class="row" id="videoReview">
+          <div class="col s5 m5">
+              <h4 class="center">Video Explaination</h4>
+          </div>
+      </div>
+          <div class="col s5 m5">
+            <div id="youtubeRevs">
+              <h4 class="center">Video Reviews</h4>
+              <img class="responsive-img" src="./images/placeholder.png" alt="missing img">
+              <img class="responsive-img" src="./images/placeholder.png" alt="missing img">
+              <!-- <img src="https://www.youtube.com/watch?v=YW3Z3pioAFc" alt=""> -->
+              <iframe width="420" height="345" src="https://www.youtube.com/embed/XGSy3_Czz8k?controls=0">
+              </iframe>
+            </div>
+            <button id="youtube" type="submit" class="input-group-addon waves-effect waves-light btn">Show youtube</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+<!-- Beginning of Amazon search -->
+    <div class="container">
+      <div class="section">
+        <div class="row" id="amazonReview">
+        </div>
+      </div>
+    </div>
+    <footer class="page-footer orange">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Company Biography</h5>
+            <p class="grey-text text-lighten-4">We are a team of 2017 Bootcamp students, hungry to create. This project is completely free to the public and can be used for any purposes within the limits of the law.</p>
+
+
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Settings</h5>
+            <ul>
+              <li><a class="white-text" >Sam Cho</a></li>
+              <li><a class="white-text" >Nick Hall</a></li>
+              <li><a class="white-text" >Perla Showell</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="white-text" href="https://github.com/samhkcho">GitHub/Sam</a></li>
+              <li><a class="white-text" href="https://github.com/smugclimber">GitHub/Nick</a></li>
+              <li><a class="white-text" href="https://github.com/pshowell">GitHub/Perla</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        Made by <a class="orange-text text-lighten-3" href="index.html">BoredBuddy Inc.</a>
+        </div>
+      </div>
+    </footer>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!-- BELOW CODE HANDLES HOW FORM DATA IS LOADED FROM OUR SERVER -->
+  <script type="text/javascript">
+  $( document ).ready(function(){
+    // In this code, jQuery is used to "download" the data from our server
+    function runDataGrab() {
+      // Here we get the location of the root page.
+      // We use this instead of explicitly saying the URL is localhost:3001 because the url will change when we deploy.
+      var currentURL = window.location.origin;
+      // The AJAX function uses the URL of our API to GET the data associated with it (initially set to localhost)
+      $.ajax({ url: currentURL + "/api/new", method: "GET" })
+      .done(function(newData) {
+        // Here we are logging the URL so we have access to it for troubleshooting
+        console.log("------------------------------------");
+        console.log("URL: " + currentURL + "/api/newGame");
+        console.log("------------------------------------");
+        console.log("On this new page, theData is:" + newData.name);
+        console.log("------------------------------------");
+        var str = newData.description
+        var abridgeDescript = getWords(str);
+        $("#gameTitle").text(newData.name);
+        $("#gameCat").text(newData.mechanics[0]);
+        $("#minPlayers").text(newData.minPlayers);
+        $("#maxPlayers").text(newData.maxPlayers);
+        $("#gameTime").text(newData.playingTime + " mins");
+        $("#description").text(abridgeDescript + " ...");
+        $("#gameImage").attr("src",newData.image);
+      });
+    }
+
+    function getWords(str)
+    {
+    return str.split(/\s+/).slice(0,70).join(" ");
+    }
+    // Run Query!
+    // ==========================================
+    runDataGrab();
+  });
+
+  // Youtube on click
+  $("#youtube").on("click", function(event){
+    // get function for youtube
+    $.get("/api/youtube", function(data){
+      console.log(data.url1);
+      console.log(data.url2);
+      var video1 = $("<iframe>");
+      video1.attr("src", data.url1);
+      video1.attr("id", "ytplayer");
+      video1.addClass("col");
+      var video2 = $("<iframe>");
+      video2.attr("src", data.url2);
+      video2.attr("id", "ytplayer");
+      video2.addClass("col");
+      $("#videoReview").append(video1);
+      $("#videoReview").append(video2);
+    });
+    // get function for amazon/
+    $.get("/api/amazon", function(data){
+      console.log(data);
+      var headlineProduct = $("<h3>");
+      var review1 = $("<a>");
+      var buy1 = $("<a>");
+      review1.attr("href", data.reviewLink);
+      buy1.attr("href", data.buyLink);
+          // <iframe src="reviews_iframe_url" />
+      review1.text("Link to Amazon Reviews!");
+      buy1.text("Link to Amazon!");
+      headlineProduct.text(data.name);
+      review1.addClass("col");
+      buy1.addClass("col");
+      $("#amazonReview").append(headlineProduct);
+      $("#amazonReview").append(buy1);
+      $("#amazonReview").append(review1);
+    });
+  });
+
+
+  </script>
+
+  </body>
+</html>

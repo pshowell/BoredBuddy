@@ -1,0 +1,29 @@
+{
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node javascript.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samhkcho/project2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samhkcho/project2/issues"
+  },
+  "homepage": "https://github.com/samhkcho/project2#readme",
+  "dependencies": {
+    "amazon-product-api": "^0.4.4",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7",
+    "request": "^2.83.0",
+    "underscore": "^1.8.3",
+    "youtube-node": "^1.3.2"
+  }
+}
